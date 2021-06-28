@@ -1,0 +1,15 @@
+---        
+apiVersion: v1
+kind: Service
+metadata:
+  name: heal-devops-app-web
+  labels:
+    app.kubernetes.io/name: heal-devops-app-web
+spec:
+  type: LoadBalancer
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 5000
+  selector:
+    app.kubernetes.io/name: heal-devops-app-web

@@ -1,0 +1,7 @@
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: heal-devops-app-web
+  labels:
+    app.kubernetes.io/name: heal-devops-app-web
