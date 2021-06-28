@@ -1,0 +1,13 @@
+.env
+.git/
+.gitignore
+docker-compose.yml
+docker/
+docs/
+/.DS_Store
+/tmp
+kubernetes/
+Makefile
+README.md
+terraform/
+test/
